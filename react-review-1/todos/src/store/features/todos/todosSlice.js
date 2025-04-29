@@ -6,7 +6,12 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   // piece of data
   // TODO
-  items: [{ id: 1, title: "Clean the dishes ", completed: false }],
+  items: [
+    { id: 1, title: "Clean the dishes ", completed: false },
+    { id: 2, title: "Throw out Trash ", completed: false },
+    { id: 3, title: " Feed Shadow ! ", completed: true },
+    { id: 2, title: "Making the bed ", completed: false },
+  ],
   //{     ...... DATA}
 };
 
